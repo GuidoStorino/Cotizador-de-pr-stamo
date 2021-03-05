@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERBANK</title>
+    <script defer type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+     
+    <script defer src="funciones.js"></script>
+     
+</head>
+<body>
+
+    <div id="contenedor">
+        <h1 id="dark1">CODERBANK</h1>
+        <h2 id="dark2">Pida su préstamo aquí</h2>
+        <form id="cotizador">
+            <div class="descripcion">
+                <p id="dark3">CAPITAL</p>
+                <select   id="capitalElegido">
+ 
+
+                </select> 
+            </div>
+            <div class="descripcion">
+                <p id="dark4">CUOTAS</p>
+                <select id="plazoElegido">
+ 
+                </select>
+            </div>
+             
+            </div>
+        </form>  
+        <button class="btn" onclick="calculoPrestamo()">Calcular</button>
+        <p id="parrafito"> </p>
+
+    </div> 
+    <div id="resultado">
+
+    </br>
+</br>
+
+
+
+
+    </div> 
+    <div class="container">
+        <div class="section">
+
+     <div>
+ 
+            <td>
+                <button class="disenio" id="darky" onclick="dark()">Dark Mode</button> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="disenio" id="lighty" onclick="light()">Light Mode</button>
+            </td>
+        </tr>
+    </div>
+    
+    <div class="form" id="form">
+        <form>
+            <label for="fname" id="ffname">Nombre</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname" id="llname">Apellido</label><br>
+            <input type="text" id="lname" name="lname"><br>
+             
+            <label for="dni" id="ddni">DNI</label><br>
+            <input type="number" id="dni" name="fname"  ><br>
+            <label for="lname" id="eemail"> "e-mail"  </e-mail></label><br>
+            <input type="text" id="email" name="email"  ><br><br>
+            <input type="submit" id="submit" value="Submit">
+        </form> 
+    </div>    
+     
+</body>
+</html>
